@@ -29,3 +29,6 @@ security:
     resource:
       jwt:
         key-uri: http://localhost:8500/uaa/oauth/token_key
+
+management.security.enabled: false
+spring.cloud.bus.trace.enabled: true

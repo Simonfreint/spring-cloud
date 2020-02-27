@@ -1,5 +1,9 @@
 server:
   port: 8700
+management:
+  port: 9700
+  security:
+    enabled: false
 
 eureka:
   client:
